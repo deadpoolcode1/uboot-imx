@@ -814,6 +814,7 @@ int board_late_init(void)
 		setenv("som_storage", "unknown");
 		break;
 	}
+	setenv("bootdelay", "-2");
 #endif
 
 	return 0;
